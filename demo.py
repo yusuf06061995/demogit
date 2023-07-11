@@ -1,8 +1,4 @@
-print("Hello world!")
-name = input("enter your name : ")
-for i in name:
-    if i == "yusuf":
-      print("yes we found name !",name)
+def sum_of_two(a,b):
+    return a+b
 
-else:
-    print("unable to find ",name)
+print(sum_of_two(5,7))
